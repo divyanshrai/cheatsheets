@@ -6,17 +6,25 @@ Using powershell in windows
 
 Venv speicific commnds - 
 
-1. python -m venv venv - Creates a virtual environment named venv
+1. python -m venv venv
+Creates a virtual environment named venv (The second part of the command)
+
+2. venv\scripts\activate.ps1
+To activate the virtual environemnt. \activate.bat for cmd use.
 
 
 
 
 
-Pip commands that might be useful
 
-1. pip list - Lists all the libraries installed. If venv activated, lists the libraries installed in the venv
 
-2.   
+Commands that might be useful
+
+1. pip list
+Lists all the libraries installed. If venv activated, lists the libraries installed in the venv
+
+2. Set-ExecutionPolicy Unrestricted -Force 
+To allow scripts to be run in powershell. This command has to be used in admin mode.
 
 
 
