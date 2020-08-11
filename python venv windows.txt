@@ -26,6 +26,11 @@ Lists all the libraries installed. If venv activated, lists the libraries instal
 2. Set-ExecutionPolicy Unrestricted -Force 
 To allow scripts to be run in powershell. This command has to be used in admin mode.
 
+3. pip freeze > requirements.txt
+To create a requirements.txt file
+
+4. pip install -r requirements.txt
+To install libraries from requirements.txt
 
 
 
