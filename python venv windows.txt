@@ -1,0 +1,23 @@
+My python version - Python 3.8.5
+pip 20.1.1
+Using powershell in windows
+
+
+
+Venv speicific commnds - 
+
+1. python -m venv venv - Creates a virtual environment named venv
+
+
+
+
+
+Pip commands that might be useful
+
+1. pip list - Lists all the libraries installed. If venv activated, lists the libraries installed in the venv
+
+2.   
+
+
+
+
