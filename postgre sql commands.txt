@@ -1,0 +1,20 @@
+In Ubuntu 16.04
+1. sudo su - postgres
+To login as postgres
+
+2. psql
+
+3. Self explanatory sql commands - 
+
+create database xyz;
+drop database xyz;
+create user abc with password '123';
+grant all privileges on database xyz to abc;
+
+4. \du - Look at users and permissions
+
+5. \l - look at all databases
+
+6. \c xyz - To connect or select a database
+
+7. \dt - To display the tables in the database after connecting to it
