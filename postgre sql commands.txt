@@ -21,4 +21,4 @@ grant all privileges on database xyz to abc;
 
 8. \q - To quit psql
 
-9. exit - To exit postgres
+9. exit; - To exit postgres
