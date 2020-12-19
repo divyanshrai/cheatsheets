@@ -18,3 +18,7 @@ grant all privileges on database xyz to abc;
 6. \c xyz - To connect or select a database
 
 7. \dt - To display the tables in the database after connecting to it
+
+8. \q - To quit psql
+
+9. exit - To exit postgres
